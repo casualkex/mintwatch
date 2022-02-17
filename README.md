@@ -1,5 +1,10 @@
 # mintwatch
 
+holding_chair = !holding_chair;
+if (!holding_chair) {
+	holding_chair = true;
+}
+
 Easy-to-setup bot, ChatOps project for handling telegram chat logging over docker-compose services, being runned as one of them.
 
 Example usage at /example directory.
